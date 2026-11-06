@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Model and vectorizer files (if you retrain and don't want to track large files)
+*.pkl
+
+# Log files
+*.log
+
+# VSCode project files (optional, if you're using VSCode)
+.vscode/
+
+# Streamlit files
+.streamlit/
+
+# PyCharm project files (optional)
+.idea/
+
+# Notebook output cache (if using nbconvert or jupyter cache)
+*.nbconvert.ipynb
